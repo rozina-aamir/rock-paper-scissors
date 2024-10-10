@@ -9,4 +9,4 @@ function getComputerChoice() {
     }
 }
 
-console.log(computerChoice)
+console.log(getComputerChoice())
