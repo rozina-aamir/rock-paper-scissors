@@ -1,4 +1,4 @@
 function getComputerChoice() {
     let rock = 1;
-    console.log(rock)
+    console.log(rock);
 }
