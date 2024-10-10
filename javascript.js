@@ -1,4 +1,3 @@
 function getComputerChoice() {
-    const rock = "1";
-    const rockNumber = Number(rock);
+    let computerChoice = Math.floor(Math.random() * 3);
 }
