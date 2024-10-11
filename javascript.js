@@ -9,8 +9,8 @@ function getComputerChoice() {
     }
 }
 
-console.log(getComputerChoice())
+console.log("The computer says: " + getComputerChoice())
 
 function getHumanChoice() {
-    
+
 }
