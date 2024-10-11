@@ -23,3 +23,5 @@ function getHumanChoice() {
 }
 
 console.log("You say: " + getHumanChoice())
+
+let humanScore = 0;
