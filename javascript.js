@@ -13,4 +13,7 @@ console.log("The computer says: " + getComputerChoice())
 
 function getHumanChoice() {
     let humanChoice = window.prompt("Make your choice. Rock, paper, or scissors.");
+    if (humanChoice.toLowerCase() === "rock") {
+        return "Rock";
+    }
 }
