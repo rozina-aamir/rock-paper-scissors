@@ -21,3 +21,5 @@ function getHumanChoice() {
         return "Scissors";
     }
 }
+
+console.log("You say: " + getHumanChoice())
