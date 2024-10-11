@@ -15,5 +15,7 @@ function getHumanChoice() {
     let humanChoice = window.prompt("Make your choice. Rock, paper, or scissors.");
     if (humanChoice.toLowerCase() === "rock") {
         return "Rock";
+    } else if (humanChoice.toLowerCase() === "paper") {
+        return "Paper";
     }
 }
