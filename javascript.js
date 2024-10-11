@@ -17,5 +17,7 @@ function getHumanChoice() {
         return "Rock";
     } else if (humanChoice.toLowerCase() === "paper") {
         return "Paper";
+    } else {
+        return "Scissors";
     }
 }
