@@ -65,6 +65,5 @@ function playGame() {
             console.log("Please enter a valid answer.");
         }
     }
+    playRound();
 }
-
-playRound(humanSelection, computerSelection);
