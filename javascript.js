@@ -31,13 +31,6 @@ console.log("Your score is: " + humanScore)
 console.log("The computer's score is: " + computerScore)
 
 function playRound(humanChoice, computerChoice) {
-    if (humanChoice() = "rock") {
-        return "Rock";
-    } else if (humanChoice() = "paper") {
-        return "Paper";
-    } else {
-        return "Scissors";
-    }
 }
 
 const humanSelection = getHumanChoice();
