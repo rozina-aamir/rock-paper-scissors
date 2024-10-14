@@ -51,6 +51,8 @@ function playRound(humanChoice, computerChoice) {
         console.log(`You loose this round. ${computerChoice} beats ${humanChoice} this time around.`);
     } else if(humanChoice == "Scissors" && computerChoice == "Paper") {
         console.log(`You win this round! ${humanChoice} has won ${computerChoice}!`);
+    } else if(humanChoice == "Scissors" && computerChoice == "Scissors") {
+        console.log("It's a draw!");
     }
 }
 
