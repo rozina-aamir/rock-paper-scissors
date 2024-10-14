@@ -82,3 +82,5 @@ function playGame() {
         console.log("You Lost!");
     }
 }
+
+playGame();
