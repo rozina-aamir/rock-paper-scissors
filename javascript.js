@@ -78,5 +78,7 @@ function playGame() {
 
     if (humanScore > computerScore) {
         console.log("You Win!");
+    } else {
+        console.log("You Lost!");
     }
 }
