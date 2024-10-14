@@ -65,24 +65,22 @@ function playGame() {
             console.log("Please enter a valid answer.");
         }
     }
+
+    playRound()
+    score()
+    playRound()
+    score()
+    playRound()
+    score()
+    playRound()
+    score()
+    playRound()
+    score()
+    if (humanScore > computerScore) {
+        console.log("You Win!");
+    } else {
+        console.log("You Lost!");
+    }
 }
 
 playGame();
-
-
-playRound()
-score()
-playRound()
-score()
-playRound()
-score()
-playRound()
-score()
-playRound()
-score()
-
-if (humanScore > computerScore) {
-    console.log("You Win!");
-} else {
-    console.log("You Lost!");
-}
