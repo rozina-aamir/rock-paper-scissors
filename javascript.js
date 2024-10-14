@@ -66,8 +66,6 @@ function playGame() {
         }
     }
 
-    let playRound = 1;
-
     playRound(humanSelection, computerSelection);
     score();
     playRound();
