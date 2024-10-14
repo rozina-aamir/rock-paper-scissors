@@ -36,6 +36,9 @@ function playGame() {
 
 
 function playRound(humanChoice, computerChoice) {
+    const humanSelection = getHumanChoice();
+    const computerSelection = getComputerChoice();
+
     if (humanChoice == "Rock" && computerChoice == "Rock") {
         console.log("It's a draw!");
     } else if (humanChoice == "Rock" && computerChoice == "Paper") {
