@@ -65,6 +65,9 @@ function playGame() {
             console.log("Please enter a valid answer.");
         }
     }
+
+    let playRound = 1;
+
     playRound(humanSelection, computerSelection);
     score();
     playRound();
