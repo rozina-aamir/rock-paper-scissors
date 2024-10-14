@@ -66,4 +66,7 @@ function playGame() {
         }
     }
     playRound();
+    score();
+    playRound();
+    score();
 }
