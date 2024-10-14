@@ -69,7 +69,7 @@ function playGame() {
     const roundCount = 5;
 
     for (let i = 1; i <= roundCount; i++) {
-        playRound(getHumanChoice(), getComputerChoice());
+        console.log(playRound(getHumanChoice(), getComputerChoice()));
         console.log(getHumanChoice);
         console.log(getComputerChoice);
     }
