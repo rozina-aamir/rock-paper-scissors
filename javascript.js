@@ -29,3 +29,7 @@ let computerScore = 0;
 
 console.log("Your score is: " + humanScore)
 console.log("The computer's score is: " + computerScore)
+
+function playRound() {
+    
+}
