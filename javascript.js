@@ -55,6 +55,8 @@ function playRound(humanChoice, computerChoice) {
         humanChoice ++;
     } else if(humanChoice == "Scissors" && computerChoice == "Scissors") {
         console.log("It's a draw!");
+    } else {
+        console.log("Please enter a valid answer.");
     }
 }
 
