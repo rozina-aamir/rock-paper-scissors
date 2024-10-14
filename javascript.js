@@ -24,6 +24,10 @@ function getHumanChoice() {
 
 console.log("You say: " + getHumanChoice())
 
+function playGame() {
+    
+}
+
 let humanScore = 0;
 let computerScore = 0;
 
