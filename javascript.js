@@ -31,5 +31,7 @@ console.log("Your score is: " + humanScore)
 console.log("The computer's score is: " + computerScore)
 
 function playRound(humanChoice, computerChoice) {
-
+    if (humanChoice() = "rock") {
+        return "Rock";
+    }
 }
