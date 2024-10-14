@@ -66,16 +66,12 @@ function playGame() {
         }
     }
 
-    playRound()
-    score()
-    playRound()
-    score()
-    playRound()
-    score()
-    playRound()
-    score()
-    playRound()
-    score()
+    const roundCount = 5;
+
+    for (let i = 1; i <= roundCount; i++) {
+        playRound(getHumanChoice(), getComputerChoice());
+    }
+
     if (humanScore > computerScore) {
         console.log("You Win!");
     } else {
