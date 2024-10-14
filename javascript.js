@@ -39,3 +39,5 @@ function playRound(humanChoice, computerChoice) {
         return "Scissors";
     }
 }
+
+const humanSelection = getHumanChoice();
