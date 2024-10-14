@@ -69,4 +69,10 @@ function playGame() {
     score();
     playRound();
     score();
+    playRound();
+    score();
+    playRound();
+    score();
+    playRound();
+    score();
 }
