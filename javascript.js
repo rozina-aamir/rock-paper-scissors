@@ -39,6 +39,8 @@ function playRound(humanChoice, computerChoice) {
     } else if (humanChoice == "Rock" && computerChoice == "Scissors") {
         console.log(`You win this round! ${humanChoice} has won ${computerChoice}!`);
         humanScore ++;
+    } else if(humanChoice == "Paper" && computerChoice == "Rock") {
+        console.log(`You win this round! ${humanChoice} has won ${computerChocie}!`);
     }
 }
 
