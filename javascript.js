@@ -31,6 +31,9 @@ console.log("Your score is: " + humanScore)
 console.log("The computer's score is: " + computerScore)
 
 function playRound(humanChoice, computerChoice) {
+    if (humanChoice == "Rock" && computerChoice == "Rock") {
+        console.log("It's a draw!");
+    }
 }
 
 const humanSelection = getHumanChoice();
