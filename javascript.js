@@ -35,5 +35,7 @@ function playRound(humanChoice, computerChoice) {
         return "Rock";
     } else if (humanChoice() = "paper") {
         return "Paper";
+    } else {
+        return "Scissors";
     }
 }
