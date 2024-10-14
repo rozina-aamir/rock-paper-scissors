@@ -70,7 +70,7 @@ function playGame() {
 playGame();
 
 
-playRound(humanSelection, computerSelection);
+playRound();
 score();
 playRound();
 score();
