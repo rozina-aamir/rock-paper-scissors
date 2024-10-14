@@ -70,16 +70,16 @@ function playGame() {
 playGame();
 
 
-playRound();
-score();
-playRound();
-score();
-playRound();
-score();
-playRound();
-score();
-playRound();
-score();
+playRound()
+score()
+playRound()
+score()
+playRound()
+score()
+playRound()
+score()
+playRound()
+score()
 
 if (humanScore > computerScore) {
     console.log("You Win!");
