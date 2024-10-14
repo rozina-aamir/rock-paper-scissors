@@ -27,11 +27,13 @@ console.log("You say: " + getHumanChoice())
 function playGame() {
     let humanScore = 0;
     let computerScore = 0;
+
+    function score() {
+        console.log("Your score is: " + humanScore);
+        console.log("The computer's score is: " + computerScore);
+    }
 }
 
-
-console.log("Your score is: " + humanScore)
-console.log("The computer's score is: " + computerScore)
 
 function playRound(humanChoice, computerChoice) {
     if (humanChoice == "Rock" && computerChoice == "Rock") {
